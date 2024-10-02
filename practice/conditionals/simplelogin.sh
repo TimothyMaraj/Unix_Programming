@@ -23,7 +23,7 @@ fi
 done
 
 
-if [[ $found == true ]]; 
+if [[ $found == true ]];  # have to check if the boloean is true so this becomes arbitrary
 then 
 
     echo "You're good "
@@ -31,7 +31,7 @@ then
     read -p "Enter in your Password: " upass
     found2=false
 
-    for i in ${password_array[@]}
+    for i in ${password_array[@]} # looping thru, have to do each element in array by using @, could we use ? like array[*]
     do
 
         if [[ $i == $upass ]]; 
