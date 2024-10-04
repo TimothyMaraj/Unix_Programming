@@ -1,7 +1,0 @@
-Fall 2024
-CS4350
-Section
-001
-scripts and shell programming using
-zeus ide
-@ TEXAS STATE UNIVERSITY
