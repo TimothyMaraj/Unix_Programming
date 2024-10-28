@@ -9,7 +9,7 @@ Due Date: 10 / 28 / 2024
 // function prototypes 
 int sqroot(int); 
 int isPrime(int); 
-int is_perfect_sqare(int); 
+int isPerfectSquare(int); 
 void printPrimes(int); 
 void printSquarePairs(int); 
 
@@ -98,9 +98,8 @@ int main() {
     }while(choice == 'Y' || choice == 'y');
 
 
-    printf("Mathematics and Computer Programming\n");
-    printf("Prepared by Timothy Maraj\n");
-    printf("10 - 28- 2024\n");
+    printf("Prepared by Timothy Maraj\n\n");
+    printf("10 - 28- 2024\n\n");
 
     return 0;
 }
